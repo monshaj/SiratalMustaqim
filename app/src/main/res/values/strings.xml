@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Sirat-al-Mustaqim</string>
+
+    <string-array name="surah_names">
+        <item>Al-Fatihah</item>
+        <item>Al-Baqarah</item>
+        <item>Al-e-Imran</item>
+        <item>Al-Nisa</item>
+        <item>Al-Maidah</item>
+
+
+    </string-array>
+</resources>

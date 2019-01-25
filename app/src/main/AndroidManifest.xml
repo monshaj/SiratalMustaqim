@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lenovo.sirat_al_mustaqim">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/siratallllt"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/siratallllt"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".HomePage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".MainMenu"/>
+
+
+
+        <activity android:name=".Read_Surahs" />
+        <activity android:name=".Listen_Surahs" />
+        <activity android:name=".Names_of_Allah" />
+        <activity android:name=".Surah_Fateha" />
+        <activity android:name=".Al_Bakarah" />
+        <activity android:name=".Al_emran" />
+        <activity android:name=".Al_Nisa" />
+        <activity android:name=".Al_Maidah" />
+        <activity android:name=".Main" />
+        <activity android:name=".Main2Activity">
+
+        </activity>
+    </application>
+
+</manifest>

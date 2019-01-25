@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMenu"
+    android:background="@drawable/mainmenue">
+
+
+    <Button
+        android:id="@+id/btnnames"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="30dp"
+        android:text="99 Names of Allah"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnmosques"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignStart="@+id/btnnames"
+        android:layout_below="@id/btnnames"
+        android:layout_marginTop="4dp"
+        android:text="Nearby Mosques"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnzakat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnmosques"
+        android:layout_below="@id/btnmosques"
+        android:layout_marginTop="4dp"
+        android:text="Zakat"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btntasbih"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnzakat"
+        android:layout_marginTop="4dp"
+        android:layout_alignStart="@+id/btnzakat"
+
+        android:text="Tasbih"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnadhan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btntasbih"
+        android:layout_marginTop="4dp"
+        android:layout_alignStart="@+id/btntasbih"
+        android:text="Adhan"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnsurah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnadhan"
+        android:layout_marginTop="4dp"
+        android:layout_alignStart="@+id/btnnames"
+        android:text="Surah(s)"
+        android:textStyle="bold" />
+</RelativeLayout>
