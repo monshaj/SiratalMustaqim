@@ -23,7 +23,7 @@
         android:id="@+id/btnmosques"
         android:layout_width="161dp"
         android:layout_height="wrap_content"
-
+        android:background="@drawable/round_button"
         android:layout_alignStart="@+id/btnnames"
         android:layout_below="@id/btnnames"
         android:layout_marginTop="4dp"
@@ -38,7 +38,8 @@
         android:layout_below="@id/btnmosques"
         android:layout_marginTop="4dp"
         android:text="Zakat"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:background="@drawable/round_button"/>
 
     <Button
         android:id="@+id/btntasbih"
@@ -47,7 +48,7 @@
         android:layout_below="@id/btnzakat"
         android:layout_marginTop="4dp"
         android:layout_alignStart="@+id/btnzakat"
-
+        android:background="@drawable/round_button"
         android:text="Tasbih"
         android:textStyle="bold" />
 
@@ -60,6 +61,7 @@
         android:layout_alignStart="@+id/btntasbih"
         android:text="Adhan"
         android:textStyle="bold"
+        android:background="@drawable/round_button"
         />
 
     <Button
@@ -70,6 +72,7 @@
         android:layout_marginTop="4dp"
         android:layout_alignStart="@+id/btnnames"
         android:text="Surah(s)"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:background="@drawable/round_button"/>
 
 </RelativeLayout>
